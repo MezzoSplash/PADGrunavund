@@ -11,5 +11,5 @@ while True:
     
     mes = mes + 1
     
-    cs.sendto("This is the test message ", ('255.255.255.255', 54545))
+    cs.sendto("1", ('255.255.255.255', 54545))
     time.sleep(1)
